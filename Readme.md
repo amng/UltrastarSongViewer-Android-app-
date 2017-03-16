@@ -1,4 +1,5 @@
 UltrastarSongViewer (Android App)
+=================================
 
 Many times when playing Ultrastar most of the time is wasted in choosing the music instead of playing, so UltrastarSongViewer objective is to allow to choose the next song while your friends are playing :).
 
