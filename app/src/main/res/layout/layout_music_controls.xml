@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_music_controls"
+    android:visibility="invisible">
+
+    <SeekBar
+        android:layout_marginBottom="-8dp"
+        android:layout_marginTop="-4dp"
+        android:id="@+id/song_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_marginEnd="24dp"
+            android:drawSelectorOnTop="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_fast_rewind_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btn_pause"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="24dp"
+            android:drawSelectorOnTop="true"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_pause_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/btn_forward"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_fast_forward_black_24dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

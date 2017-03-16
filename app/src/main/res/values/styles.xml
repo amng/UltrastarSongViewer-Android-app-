@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/md_blue_500</item>
+        <item name="android:colorPrimaryDark">@color/md_blue_700</item>
+        <item name="android:colorAccent">@color/md_orange_a200</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_orange_a200</item>
+    </style>
+    <style name="AppThemeNoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/md_blue_500</item>
+        <item name="android:colorPrimaryDark">@color/md_blue_700</item>
+        <item name="android:colorAccent">@color/md_orange_a200</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_orange_a200</item>
+    </style>
+    <style name="AppThemeOverlayActionbar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/md_blue_500</item>
+        <item name="android:colorPrimaryDark">@color/md_blue_700</item>
+        <item name="android:colorAccent">@color/md_orange_a200</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!--Support-->
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_orange_a200</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+
+    </style>
+
+</resources>
